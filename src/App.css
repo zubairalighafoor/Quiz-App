@@ -1,0 +1,53 @@
+.App{
+  text-align: center;
+}
+.App > h1{
+  text-shadow: 4px 2px 5px #917373;
+}
+.question-container {
+  text-align: left;
+  max-width: 500px;
+  box-shadow: 0px 5px 24px #867a7a;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.question-form .submit{
+  width: 100%;
+  border: none;
+  background-color: #3f51b5;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 20px;
+}
+.radio{
+  text-align: left;
+}
+.question-container .radio{
+  display: block;
+  text-align: left;
+  margin: 9px 0;
+}
+.question-container.result-container{
+  text-align: center;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+.loaderPage{
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
